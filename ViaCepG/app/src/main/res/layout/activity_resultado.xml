@@ -18,11 +18,19 @@
         android:layout_marginBottom="8dp"/>
 
     <TextView
-        android:id="@+id/resultTextView"
+        android:id="@+id/cepTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:text="12345-678"/>
+        tools:text=""/>
+
+    <TextView
+        android:id="@+id/cidadeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text=""/>
 
 </LinearLayout>
